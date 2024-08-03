@@ -1,0 +1,73 @@
+*{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.dialogbox-container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 225px;
+    border-radius: 5px;
+    border: 1px solid rgb(170, 169, 169);
+    background-color: rgba(237, 240, 240, 0.767);
+}
+.heading{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 10px;
+    background-color: darkgray;
+}
+.inputField-container{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.inputField{
+    width: 270px;
+    height: 30px;
+    outline: none;
+    font-size: 15px;
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+}
+.selectOption{
+    width: 270px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+.createButton{
+    height: 25px;
+    width: 50px;
+    font-size: 18px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+.button-container{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 40px;
+    width: 285px;
+}
+.option{
+    color: rgb(3, 3, 3);
+}
+.cancelButton{
+    width: 60px;
+    height: 23px;
+}

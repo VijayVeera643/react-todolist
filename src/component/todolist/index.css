@@ -1,0 +1,147 @@
+* {
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+
+.todoApp-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 50px;
+    height: 500px;
+    
+}
+
+.addListItemInputField {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    height: 50px;
+}
+.heading-container{
+    display: flex;
+    justify-content: end;
+    width: 600px;
+}
+.todoapp-heading {
+    font-size: 40px;
+}
+
+.add-dialogbox-button {
+    background-color: rgb(115, 178, 250);
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    
+}
+
+.button-container {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.todolist-headings-container {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+}
+
+
+.todo-heading {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 290px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.in-progress-heading {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 290px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.closed-heading {
+    background-color: rgb(78, 201, 78);
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 16px;
+    width: 290px;
+}
+
+ul{
+    height: 330px;
+    background-color: white;
+    padding: 5px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    overflow-y: auto;
+}
+
+.list-item {
+    background-color: rgb(255, 253, 253);
+    box-shadow: 0px 2px 3px rgb(201, 185, 185), -1px 2px 1px rgb(201, 185, 185), 1px 2px 2px rgb(201, 185, 185), 0px 0px 0px 0px white;
+    width: 290px;
+    border-radius: 5px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.delete-icon {
+    height: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+}
+
+.Edit-icon {
+    height: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.Update-icon {
+    height: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.todo-container,
+.progress-container,
+.closed-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.list-content{
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
